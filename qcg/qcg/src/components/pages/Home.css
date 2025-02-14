@@ -1,0 +1,72 @@
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9e11b1;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #9e11b1;
+}
+
+/* Dark mode styles */
+body.dark .custom-card {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+body.dark .custom-card .card-title,
+body.dark .custom-card .card-text {
+  color: #ffffff;
+}
+
+/* Flexbox styles for equal card heights */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container .col-md-4 {
+  display: flex;
+  flex: 1 1 33%;
+  padding: 15px;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
