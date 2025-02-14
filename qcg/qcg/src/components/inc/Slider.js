@@ -17,8 +17,7 @@ function Slider() {
                     <img src={slider1} className="d-block w-100" alt="First slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <div className="blacc">
-                            <h5>Sometimes we sit on lawns</h5>
-                            <p>(Ignore the guy who didn't get a shirt)</p>
+
                         </div>
                     </div>
                 </div>
@@ -26,8 +25,6 @@ function Slider() {
                     <img src={slider2} className="d-block w-100" alt="Second slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <div className="blacc">
-                            <h5>Quantum Computa</h5>
-                            <p>That do be a quantum computa</p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +32,7 @@ function Slider() {
                     <img src={slider3} className="d-block w-100" alt="Third slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <div className="blacc">
-                            <h5>Woman computing at computer</h5>
-                            <p>She's Indian you racist, this is not a stock image (jk)</p>
+
                         </div>
                     </div>
                 </div>
